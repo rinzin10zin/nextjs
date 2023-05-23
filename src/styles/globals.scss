@@ -1,0 +1,23 @@
+main {
+  margin: 0 auto;
+  max-width: 1200px;
+  nav ul {
+    display: flex;
+    height: max-content;
+    gap: 4rem;
+  }
+
+  .cocktails {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    article {
+      width: 250px;
+      img {
+        width: 100%;
+        display: block;
+        height: auto;
+      }
+    }
+  }
+}
